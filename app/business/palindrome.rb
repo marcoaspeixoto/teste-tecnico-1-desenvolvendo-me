@@ -5,4 +5,3 @@ class Palindrome
     reverse == string
   end
 end
-
