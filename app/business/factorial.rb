@@ -13,4 +13,3 @@ class Factorial
     end
   end
 end
-
