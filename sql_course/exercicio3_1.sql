@@ -72,4 +72,6 @@ ALTER TABLE pedido_detalhe MODIFY curso_codigo int unsigned not null;
 CREATE INDEX fk_pedido ON pedido_detalhe (pedido_codigo);
 CREATE INDEX fk_curso ON pedido_detalhe (curso_codigo);
 ALTER TABLE pedido_detalhe ADD PRIMARY KEY (pedido_codigo, curso_codigo);
+
 ALTER TABLE alunos ADD data_nascimento char(10);
+ALTER TABLE alunos CHANGE data_nascimento nascimento date;
