@@ -77,3 +77,4 @@ ALTER TABLE alunos ADD data_nascimento char(10);
 ALTER TABLE alunos CHANGE data_nascimento nascimento date;
 CREATE INDEX idx_aluno ON alunos (aluno);
 ALTER TABLE instrutores ADD email char(100);
+ALTER TABLE instrutores DROP COLUMN email;
