@@ -79,3 +79,4 @@ CREATE INDEX idx_aluno ON alunos (aluno);
 ALTER TABLE instrutores ADD email char(100);
 ALTER TABLE instrutores DROP COLUMN email;
 ALTER TABLE alunos MODIFY COLUMN nascimento date null;
+ALTER TABLE alunos MODIFY COLUMN email varchar(100);
