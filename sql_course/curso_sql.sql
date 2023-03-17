@@ -39,3 +39,7 @@ CREATE INDEX nomes ON funcionarios (nome(6));
 
 INSERT INTO funcionarios (id, nome, salario, departamento)
 VALUES (1, 'Fernando', 1400, 'TI');
+INSERT INTO funcionarios (id, nome, salario, departamento)
+VALUES (2, 'Guilherme', 2500, 'Jurídico');
+
+SELECT * FROM funcionarios;
