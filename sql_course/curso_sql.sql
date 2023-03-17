@@ -36,3 +36,6 @@ DROP TABLE salarios;
 
 CREATE INDEX departamentos ON funcionarios (departamento);
 CREATE INDEX nomes ON funcionarios (nome(6));
+
+INSERT INTO funcionarios (id, nome, salario, departamento)
+VALUES (1, 'Fernando', 1400, 'TI');
