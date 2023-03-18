@@ -50,3 +50,4 @@ VALUES ('Isabela', 2200, 'Jurídico');
 
 SELECT * FROM funcionarios;
 SELECT * FROM funcionarios WHERE salario > 2000;
+SELECT * FROM funcionarios WHERE nome = 'José';
