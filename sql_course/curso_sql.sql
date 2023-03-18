@@ -70,3 +70,8 @@ INSERT INTO veiculos (funcionario_id, veiculo, placa) VALUES (1, 'Carro', 'SB-00
 SELECT * FROM veiculos;
 
 UPDATE veiculos SET funcionario_id = 5 WHERE id = 2;
+
+INSERT INTO salarios (faixa, inicio, fim) VALUES ('Analista Jr', 1000, 2000);
+INSERT INTO salarios (faixa, inicio, fim) VALUES ('Analista Pleno', 2000, 4000);
+
+SELECT * FROM salarios;
