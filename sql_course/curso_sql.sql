@@ -61,3 +61,5 @@ SET SQL_SAFE_UPDATES = 1;
 SET SQL_SAFE_UPDATES = 0;
 
 UPDATE funcionarios SET salario = ROUND(salario * 1.1, 2);
+
+DELETE FROM funcionarios WHERE id = 4;
