@@ -52,3 +52,7 @@ SELECT * FROM funcionarios;
 SELECT * FROM funcionarios WHERE salario > 2000;
 SELECT * FROM funcionarios WHERE nome = 'José';
 SELECT * FROM funcionarios WHERE id = 3;
+
+UPDATE funcionarios SET salario = salario * 1.1;
+UPDATE funcionarios SET salario = salario * 1.1 WHERE id = 1;
+SELECT * FROM funcionarios;
