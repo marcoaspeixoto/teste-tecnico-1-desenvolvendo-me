@@ -43,5 +43,10 @@ INSERT INTO funcionarios (id, nome, salario, departamento)
 VALUES (2, 'Guilherme', 2500, 'Jurídico');
 INSERT INTO funcionarios (nome, salario, departamento)
 VALUES ('Fabio', 1700, 'TI');
+INSERT INTO funcionarios (nome, salario, departamento)
+VALUES ('José', 1800, 'Marketing');
+INSERT INTO funcionarios (nome, salario, departamento)
+VALUES ('Isabela', 2200, 'Jurídico');
 
 SELECT * FROM funcionarios;
+SELECT * FROM funcionarios WHERE salario > 2000;
