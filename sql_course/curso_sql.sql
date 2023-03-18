@@ -68,3 +68,5 @@ INSERT INTO veiculos (funcionario_id, veiculo, placa) VALUES (1, 'Carro', 'SB-00
 INSERT INTO veiculos (funcionario_id, veiculo, placa) VALUES (1, 'Carro', 'SB-002');
 
 SELECT * FROM veiculos;
+
+UPDATE veiculos SET funcionario_id = 5 WHERE id = 2;
