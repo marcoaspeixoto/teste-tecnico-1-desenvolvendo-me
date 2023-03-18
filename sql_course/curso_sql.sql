@@ -63,3 +63,8 @@ SET SQL_SAFE_UPDATES = 0;
 UPDATE funcionarios SET salario = ROUND(salario * 1.1, 2);
 
 DELETE FROM funcionarios WHERE id = 4;
+
+INSERT INTO veiculos (funcionario_id, veiculo, placa) VALUES (1, 'Carro', 'SB-001');
+INSERT INTO veiculos (funcionario_id, veiculo, placa) VALUES (1, 'Carro', 'SB-002');
+
+SELECT * FROM veiculos;
