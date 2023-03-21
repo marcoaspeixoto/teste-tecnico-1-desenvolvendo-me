@@ -103,3 +103,23 @@ VALUES ('SQL Completo', 1, 1, 170);
 
 INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
 VALUES ('Php Básico', 2, 1, 270);
+
+INSERT INTO alunos (aluno, endereco, email)
+VALUES ('José', 'Rua XV de Novmenbro 72', 'jose@softblue.com.br');
+
+INSERT INTO alunos (aluno, endereco, email)
+VALUES ('Wagner', 'Av. Paulista', 'wagner@softblue.com.br');
+
+INSERT INTO alunos (aluno, endereco, email)
+VALUES ('Emĺlio', 'Rua Lajes 103, ap: 701', 'emilio@softblue.com.br');
+
+INSERT INTO alunos (aluno, endereco, email)
+VALUES ('Cris', 'Rua Tauney 22', 'cris@softblue.com.br');
+
+INSERT INTO alunos (aluno, endereco, email)
+VALUES ('Regina', 'Rua Salles 305', 'regina@softblue.com.br');
+
+INSERT INTO alunos (aluno, endereco, email)
+VALUES ('Fernando', 'Av. Central 30', 'fernando@softblue.com.br');
+
+SELECT * FROM alunos;
