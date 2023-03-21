@@ -148,5 +148,29 @@ VALUES (6, '2010-04-20 18:13:44');
 
 SELECT * FROM pedidos;
 
+DELETE FROM pedido_detalhe;
+
+INSERT INTO pedido_detalhe VALUES (1, 1, 270);
+INSERT INTO pedido_detalhe VALUES (1, 2, 230);
+INSERT INTO pedido_detalhe VALUES (2, 1, 270);
+INSERT INTO pedido_detalhe VALUES (2, 2, 330);
+INSERT INTO pedido_detalhe VALUES (2, 3, 170);
+INSERT INTO pedido_detalhe VALUES (3, 4, 270);
+INSERT INTO pedido_detalhe VALUES (4, 2, 330);
+INSERT INTO pedido_detalhe VALUES (4, 4, 270);
+INSERT INTO pedido_detalhe VALUES (5, 3, 170);
+INSERT INTO pedido_detalhe VALUES (6, 3, 170);
+INSERT INTO pedido_detalhe VALUES (7, 4, 270);
+
+SELECT * FROM pedido_detalhe;
+
+
+
+
+
+
+
+
+
 
 
