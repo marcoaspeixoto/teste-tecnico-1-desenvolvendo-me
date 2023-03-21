@@ -75,3 +75,6 @@ INSERT INTO salarios (faixa, inicio, fim) VALUES ('Analista Jr', 1000, 2000);
 INSERT INTO salarios (faixa, inicio, fim) VALUES ('Analista Pleno', 2000, 4000);
 
 SELECT * FROM salarios;
+
+SELECT * FROM funcionarios f WHERE salario > 2000;
+

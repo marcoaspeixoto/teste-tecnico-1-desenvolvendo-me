@@ -80,3 +80,7 @@ ALTER TABLE instrutores ADD email char(100);
 ALTER TABLE instrutores DROP COLUMN email;
 ALTER TABLE alunos MODIFY COLUMN nascimento date null;
 ALTER TABLE alunos MODIFY COLUMN email varchar(100);
+
+INSERT INTO tipos (tipo) VALUES ('Banco de dados');
+INSERT INTO tipos (tipo) VALUES ('Programação');
+INSERT INTO tipos (tipo) VALUES ('Modelagem de dados');
