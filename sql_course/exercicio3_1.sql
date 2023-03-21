@@ -123,3 +123,30 @@ INSERT INTO alunos (aluno, endereco, email)
 VALUES ('Fernando', 'Av. Central 30', 'fernando@softblue.com.br');
 
 SELECT * FROM alunos;
+
+ALTER TABLE pedidos DROP COLUMN hora;
+
+INSERT INTO pedidos VALUES (1, 2, '2010-04-15 11:23:32');
+
+INSERT INTO pedidos (aluno_codigo, data_hora)
+VALUES (2, '2010-04-15 14:36:21');
+
+INSERT INTO pedidos (aluno_codigo, data_hora)
+VALUES (3, '2010-04-16 11:14:45');
+
+INSERT INTO pedidos (aluno_codigo, data_hora)
+VALUES (4, '2010-04-17 14:27:22');
+
+INSERT INTO pedidos (aluno_codigo, data_hora)
+VALUES (5, '2010-04-18 11:18:19');
+
+INSERT INTO pedidos (aluno_codigo, data_hora)
+VALUES (6, '2010-04-19 13:47:35');
+
+INSERT INTO pedidos (aluno_codigo, data_hora)
+VALUES (6, '2010-04-20 18:13:44');
+
+SELECT * FROM pedidos;
+
+
+
