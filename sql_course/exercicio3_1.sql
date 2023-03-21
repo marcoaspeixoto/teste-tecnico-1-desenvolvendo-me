@@ -84,3 +84,8 @@ ALTER TABLE alunos MODIFY COLUMN email varchar(100);
 INSERT INTO tipos (tipo) VALUES ('Banco de dados');
 INSERT INTO tipos (tipo) VALUES ('Programação');
 INSERT INTO tipos (tipo) VALUES ('Modelagem de dados');
+
+INSERT INTO instrutores (instrutor, telefone) VALUES ('André Milani', '1111-1111');
+INSERT INTO instrutores (instrutor, telefone) VALUES ('Carlos Tosin', '1212-1212');
+
+SELECT * FROM instrutores;
