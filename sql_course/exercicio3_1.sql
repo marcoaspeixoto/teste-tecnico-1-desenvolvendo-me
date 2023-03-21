@@ -89,3 +89,17 @@ INSERT INTO instrutores (instrutor, telefone) VALUES ('André Milani', '1111-111
 INSERT INTO instrutores (instrutor, telefone) VALUES ('Carlos Tosin', '1212-1212');
 
 SELECT * FROM instrutores;
+
+INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
+VALUES ('Java Fundamentos', 2, 2, 270);
+
+SELECT * FROM cursos;
+
+INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
+VALUES ('Java Avançado', 2, 2, 330);
+
+INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
+VALUES ('SQL Completo', 1, 1, 170);
+
+INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
+VALUES ('Php Básico', 2, 1, 270);
