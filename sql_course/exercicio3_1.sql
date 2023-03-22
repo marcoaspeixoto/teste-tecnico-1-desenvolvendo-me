@@ -168,6 +168,8 @@ SELECT * FROM alunos;
 
 SELECT curso, valor FROM cursos WHERE valor > 200;
 
+SELECT curso, valor FROM cursos WHERE valor > 200 AND valor < 300;
+
 
 
 
