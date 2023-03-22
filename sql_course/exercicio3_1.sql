@@ -166,6 +166,8 @@ SELECT * FROM pedido_detalhe;
 
 SELECT * FROM alunos;
 
+SELECT curso FROM cursos;
+
 
 
 
