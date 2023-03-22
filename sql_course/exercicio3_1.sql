@@ -164,13 +164,15 @@ INSERT INTO pedido_detalhe VALUES (7, 4, 270);
 
 SELECT * FROM pedido_detalhe;
 
-SELECT * FROM alunos;
+SELECT * FROM pedidos;
 
 SELECT curso, valor FROM cursos WHERE valor > 200;
 
 SELECT curso, valor FROM cursos WHERE valor > 200 AND valor < 300;
 
 SELECT * FROM pedidos WHERE data_hora BETWEEN '2010-04-15' AND '2010-04-18';
+
+SELECT * FROM pedidos WHERE DATE (data_hora) = '2010-04-15';
 
 
 
