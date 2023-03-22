@@ -164,6 +164,8 @@ INSERT INTO pedido_detalhe VALUES (7, 4, 270);
 
 SELECT * FROM pedido_detalhe;
 
+SELECT * FROM alunos;
+
 
 
 
