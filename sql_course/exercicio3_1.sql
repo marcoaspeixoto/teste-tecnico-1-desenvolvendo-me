@@ -170,6 +170,8 @@ SELECT curso, valor FROM cursos WHERE valor > 200;
 
 SELECT curso, valor FROM cursos WHERE valor > 200 AND valor < 300;
 
+SELECT * FROM pedidos WHERE data_hora BETWEEN '2010-04-15' AND '2010-04-18';
+
 
 
 
