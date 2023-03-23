@@ -174,6 +174,16 @@ SELECT * FROM pedidos WHERE data_hora BETWEEN '2010-04-15' AND '2010-04-18';
 
 SELECT * FROM pedidos WHERE DATE (data_hora) = '2010-04-15';
 
+SELECT * FROM alunos;
+
+UPDATE alunos SET endereco = 'Av. Brasil, 778' WHERE aluno = 'José';
+
+UPDATE alunos SET email = 'cristiano@softblue.com.br' WHERE aluno = 'Cris';
+
+UPDATE cursos SET valor = ROUND(valor * 1.1, 2)  WHERE valor < 300;
+
+UPDATE cursos SET curso = 'Php Fundamentos' WHERE curso = 'Php Básico';
+
 
 
 
