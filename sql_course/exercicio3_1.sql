@@ -189,7 +189,8 @@ VALUES ('Marco Peixoto', 'Vila Temão', 'marcoaspeixoto@gmail.com', '1979-04-12'
 
 SELECT * FROM alunos;
 
-DELETE
+UPDATE alunos SET nascimento = null WHERE nascimento = '1979-04-12';
+
 
 
 
