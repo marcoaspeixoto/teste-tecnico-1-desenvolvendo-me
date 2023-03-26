@@ -184,9 +184,12 @@ UPDATE cursos SET valor = ROUND(valor * 1.1, 2)  WHERE valor < 300;
 
 UPDATE cursos SET curso = 'Php Fundamentos' WHERE curso = 'Php Básico';
 
+INSERT INTO alunos (aluno, endereco, email, nascimento)
+VALUES ('Marco Peixoto', 'Vila Temão', 'marcoaspeixoto@gmail.com', '1979-04-12');
 
+SELECT * FROM alunos;
 
-
+DELETE
 
 
 
