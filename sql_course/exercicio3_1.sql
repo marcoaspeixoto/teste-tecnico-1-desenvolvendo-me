@@ -191,7 +191,8 @@ SELECT * FROM alunos;
 
 UPDATE alunos SET nascimento = null WHERE nascimento = '1979-04-12';
 
-
+INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
+VALUES ('Ruby on Rails', 1, 2, 300);
 
 
 
