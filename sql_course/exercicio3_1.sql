@@ -194,6 +194,16 @@ UPDATE alunos SET nascimento = null WHERE nascimento = '1979-04-12';
 INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
 VALUES ('Ruby on Rails', 1, 2, 300);
 
+INSERT INTO cursos (curso, tipo_codigo, instrutor_codigo, valor)
+VALUES ('Javascript', 1, 2, 330);
+
+SELECT * FROM cursos WHERE tipo_codigo = 2;
+
+UPDATE cursos SET tipo_codigo = 2 WHERE curso = 'Ruby on Rails'
+UPDATE cursos SET tipo_codigo = 2 WHERE curso = 'Javascript'
+
+
+
 
 
 
