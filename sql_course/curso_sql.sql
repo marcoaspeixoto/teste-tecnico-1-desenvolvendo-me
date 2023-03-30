@@ -102,3 +102,8 @@ CREATE TABLE cpfs
     CONSTRAINT fk_cpf FOREIGN KEY (id) REFERENCES funcionarios(id)
 )
 
+INSERT INTO cpfs (id, cpf) VALUES (1, '111.111.111-11');
+INSERT INTO cpfs (id, cpf) VALUES (2, '222.222.222-22');
+INSERT INTO cpfs (id, cpf) VALUES (3, '333.333.333-33');
+INSERT INTO cpfs (id, cpf) VALUES (5, '555.555.555-55');
+
