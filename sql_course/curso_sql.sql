@@ -82,3 +82,5 @@ SELECT * FROM funcionarios;
 SELECT * FROM veiculos;
 
 SELECT * FROM funcionarios INNER JOIN veiculos ON funcionario_id = funcionarios.id;
+
+SELECT * FROM funcionarios LEFT JOIN veiculos ON funcionario_id = funcionarios.id;
