@@ -78,3 +78,7 @@ SELECT * FROM salarios;
 
 SELECT * FROM funcionarios f WHERE salario > 2000;
 
+SELECT * FROM funcionarios;
+SELECT * FROM veiculos;
+
+SELECT * FROM funcionarios INNER JOIN veiculos ON funcionario_id = funcionarios.id;
