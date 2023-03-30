@@ -94,3 +94,11 @@ SELECT * FROM funcionarios RIGHT JOIN veiculos ON funcionario_id = funcionarios.
 
 INSERT INTO veiculos (funcionario_id, veiculo, placa) VALUES (null, 'Moto', 'SB-0003');
 
+CREATE TABLE cpfs
+(
+    id int unsigned not null,
+    cpf varchar(14) not null,
+    PRIMARY KEY (id),
+    CONSTRAINT fk_cpf FOREIGN KEY (id) REFERENCES funcionarios(id)
+)
+
