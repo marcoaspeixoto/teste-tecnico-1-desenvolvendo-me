@@ -84,3 +84,13 @@ SELECT * FROM veiculos;
 SELECT * FROM funcionarios INNER JOIN veiculos ON funcionario_id = funcionarios.id;
 
 SELECT * FROM funcionarios LEFT JOIN veiculos ON funcionario_id = funcionarios.id;
+
+SELECT * FROM funcionarios RIGHT JOIN veiculos ON funcionario_id = funcionarios.id;
+
+SELECT * FROM funcionarios LEFT JOIN veiculos ON funcionario_id = funcionarios.id
+UNION
+SELECT * FROM funcionarios RIGHT JOIN veiculos ON funcionario_id = funcionarios.id;
+
+
+INSERT INTO veiculos (funcionario_id, veiculo, placa) VALUES (null, 'Moto', 'SB-0003');
+
