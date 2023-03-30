@@ -107,3 +107,16 @@ INSERT INTO cpfs (id, cpf) VALUES (2, '222.222.222-22');
 INSERT INTO cpfs (id, cpf) VALUES (3, '333.333.333-33');
 INSERT INTO cpfs (id, cpf) VALUES (5, '555.555.555-55');
 
+SELECT * FROM funcionarios INNER JOIN cpfs on funcionarios.id = cpfs.id;
+SELECT * FROM funcionarios INNER JOIN cpfs USING(id);
+
+CREATE TABLE clientes
+(
+    id int unsigned not null auto_increment,
+    nome varchar(45) not null,
+    quem_indicou int unsigned,
+    PRIMARY KEY (id),
+    CONSTRAINT fk_quem_indicou FOREIGN KEY (quem_indicou) REFERENCES clientes (id)
+);
+
+
