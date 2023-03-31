@@ -127,6 +127,8 @@ INSERT INTO clientes (id, nome, quem_indicou) VALUES (4, 'Rafael', 1);
 SELECT a.nome AS CLIENTE, b.nome as 'QUEM INDICOU'
 FROM clientes a JOIN clientes b on a.quem_indicou = b.id;
 
-SELECT * FROM funcionarios INNER JOIN veiculos ON funcionario_id = funcionarios.id
+SELECT * FROM funcionarios
+INNER JOIN veiculos ON funcionario_id = funcionarios.id
 INNER JOIN cpfs ON cpfs.id = funcionarios.id;
 
+CREATE VIEW funcionarios_a AS SELECT * FROM funcionarios WHERE salario >= 1700;
