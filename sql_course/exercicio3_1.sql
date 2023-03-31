@@ -199,10 +199,10 @@ VALUES ('Javascript', 1, 2, 330);
 
 SELECT * FROM cursos WHERE tipo_codigo = 2;
 
-UPDATE cursos SET tipo_codigo = 2 WHERE curso = 'Ruby on Rails'
-UPDATE cursos SET tipo_codigo = 2 WHERE curso = 'Javascript'
+UPDATE cursos SET tipo_codigo = 2 WHERE curso = 'Ruby on Rails';
+UPDATE cursos SET tipo_codigo = 2 WHERE curso = 'Javascript';
 
-
+SELECT cursos.curso, tipos.tipo FROM cursos INNER JOIN tipos ON cursos.tipo_codigo = tipos.codigo;
 
 
 
