@@ -119,4 +119,14 @@ CREATE TABLE clientes
     CONSTRAINT fk_quem_indicou FOREIGN KEY (quem_indicou) REFERENCES clientes (id)
 );
 
+INSERT INTO clientes (id, nome, quem_indicou) VALUES (1, 'André', null);
+INSERT INTO clientes (id, nome, quem_indicou) VALUES (2, 'Samuel', 1);
+INSERT INTO clientes (id, nome, quem_indicou) VALUES (3, 'Carlos', 2);
+INSERT INTO clientes (id, nome, quem_indicou) VALUES (4, 'Rafael', 1);
+
+SELECT a.nome AS CLIENTE, b.nome as 'QUEM INDICOU'
+FROM clientes a JOIN clientes b on a.quem_indicou = b.id;
+
+SELECT * FROM funcionarios INNER JOIN veiculos ON funcionario_id = funcionarios.id
+INNER JOIN cpfs ON cpfs.id = funcionarios.id;
 
