@@ -204,6 +204,12 @@ UPDATE cursos SET tipo_codigo = 2 WHERE curso = 'Javascript';
 
 SELECT cursos.curso, tipos.tipo FROM cursos INNER JOIN tipos ON cursos.tipo_codigo = tipos.codigo;
 
+SELECT cursos.curso, tipos.tipo, instrutores.instrutor, instrutores.telefone FROM cursos
+INNER JOIN tipos ON cursos.tipo_codigo = tipos.codigo
+INNER JOIN instrutores ON cursos.instrutor_codigo = instrutores.codigo;
+
+
+
 
 
 
