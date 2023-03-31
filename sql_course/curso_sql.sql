@@ -132,3 +132,9 @@ INNER JOIN veiculos ON funcionario_id = funcionarios.id
 INNER JOIN cpfs ON cpfs.id = funcionarios.id;
 
 CREATE VIEW funcionarios_a AS SELECT * FROM funcionarios WHERE salario >= 1700;
+
+SELECT * FROM funcionarios_a;
+
+UPDATE funcionarios SET salario = 1500 WHERE id = 3;
+
+DROP VIEW funcionarios_a;
