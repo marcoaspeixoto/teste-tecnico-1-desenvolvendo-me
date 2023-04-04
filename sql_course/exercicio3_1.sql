@@ -208,6 +208,8 @@ SELECT cursos.curso, tipos.tipo, instrutores.instrutor, instrutores.telefone FRO
 INNER JOIN tipos ON cursos.tipo_codigo = tipos.codigo
 INNER JOIN instrutores ON cursos.instrutor_codigo = instrutores.codigo;
 
+SELECT cursos.curso, instrutores.instrutor from cursos INNER JOIN instrutores ON cursos.instrutor_codigo = instrutores.codigo;
+
 
 
 
