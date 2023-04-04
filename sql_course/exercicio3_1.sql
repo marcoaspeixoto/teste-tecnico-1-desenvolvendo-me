@@ -210,6 +210,10 @@ INNER JOIN instrutores ON cursos.instrutor_codigo = instrutores.codigo;
 
 SELECT cursos.curso, instrutores.instrutor from cursos INNER JOIN instrutores ON cursos.instrutor_codigo = instrutores.codigo;
 
+SELECT pedidos.codigo, pedidos.data_hora, pedido_detalhe.curso_codigo FROM pedidos
+INNER JOIN pedido_detalhe ON pedidos.codigo = pedido_detalhe.pedido_codigo
+INNER JOIN cursos ON pedido_detalhe.curso_codigo = cursos.codigo;
+
 
 
 
