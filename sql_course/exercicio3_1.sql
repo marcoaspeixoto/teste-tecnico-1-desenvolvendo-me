@@ -214,8 +214,14 @@ SELECT pedidos.codigo, pedidos.data_hora, pedido_detalhe.curso_codigo FROM pedid
 INNER JOIN pedido_detalhe ON pedidos.codigo = pedido_detalhe.pedido_codigo
 INNER JOIN cursos ON pedido_detalhe.curso_codigo = cursos.codigo;
 
+SELECT pedidos.codigo, pedidos.data_hora, cursos.curso FROM pedidos
+INNER JOIN pedido_detalhe ON pedidos.codigo = pedido_detalhe.pedido_codigo
+INNER JOIN cursos ON pedido_detalhe.curso_codigo = cursos.codigo;
 
-
+SELECT pedidos.codigo, pedidos.data_hora, alunos.aluno, cursos.curso FROM pedidos
+INNER JOIN pedido_detalhe ON pedidos.codigo = pedido_detalhe.pedido_codigo
+INNER JOIN cursos ON pedido_detalhe.curso_codigo = cursos.codigo
+INNER JOIN alunos ON pedidos.aluno_codigo = alunos.codigo;
 
 
 
