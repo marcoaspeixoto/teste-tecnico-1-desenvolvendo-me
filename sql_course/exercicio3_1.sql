@@ -227,6 +227,12 @@ CREATE VIEW consulta_1 AS SELECT curso, valor FROM cursos;
 
 SELECT * FROM consulta_1;
 
+CREATE VIEW consulta_2 AS SELECT cursos.curso, tipos.tipo, instrutores.instrutor FROM cursos
+INNER JOIN tipos ON cursos.tipo_codigo = tipos.codigo
+INNER JOIN instrutores ON cursos.instrutor_codigo = instrutores.codigo;
+
+SELECT * FROM consulta_2;
+
 
 
 
