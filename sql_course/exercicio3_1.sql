@@ -223,6 +223,10 @@ INNER JOIN pedido_detalhe ON pedidos.codigo = pedido_detalhe.pedido_codigo
 INNER JOIN cursos ON pedido_detalhe.curso_codigo = cursos.codigo
 INNER JOIN alunos ON pedidos.aluno_codigo = alunos.codigo;
 
+CREATE VIEW consulta_1 AS SELECT curso, valor FROM cursos;
+
+SELECT * FROM consulta_1;
+
 
 
 
