@@ -187,4 +187,10 @@ SELECT * FROM funcionarios LIMIT 2 OFFSET 1;
 
 SELECT * FROM funcionarios LIMIT 1, 2;
 
+SELECT departamento, AVG(salario) FROM funcionarios
+GROUP BY departamento;
 
+SELECT departamento, AVG(salario) FROM funcionarios
+GROUP BY departamento HAVING AVG(salario) > 2000;
+
+SELECT departamento, COUNT(*) FROM funcionarios GROUP BY departamento;
