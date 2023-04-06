@@ -233,6 +233,11 @@ INNER JOIN instrutores ON cursos.instrutor_codigo = instrutores.codigo;
 
 SELECT * FROM consulta_2;
 
+CREATE VIEW consulta_3 AS SELECT alunos.aluno, pedidos.data_hora, pedidos.codigo FROM pedidos
+INNER JOIN alunos ON pedidos.aluno_codigo = alunos.codigo;
+
+SELECT * FROM consulta_3;
+
 
 
 
