@@ -140,3 +140,11 @@ UPDATE funcionarios SET salario = 1500 WHERE id = 3;
 DROP VIEW funcionarios_a;
 
 CREATE VIEW funcionarios_a AS SELECT * FROM funcionarios WHERE salario >= 2000;
+
+SELECT COUNT(*) FROM funcionarios;
+
+SELECT COUNT(*) FROM funcionarios WHERE salario > 2000;
+
+SELECT COUNT(*) FROM funcionarios WHERE salario > 1600;
+
+SELECT COUNT(*) FROM funcionarios WHERE salario > 1600 AND departamento = 'Jurídico';
