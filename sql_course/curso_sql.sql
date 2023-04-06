@@ -168,3 +168,17 @@ SELECT MIN(salario) FROM funcionarios WHERE departamento = 'TI';
 SELECT departamento FROM funcionarios;
 
 SELECT DISTINCT(departamento) FROM funcionarios;
+
+SELECT * FROM funcionarios;
+
+SELECT * FROM funcionarios ORDER BY nome;
+
+SELECT * FROM funcionarios ORDER BY nome DESC;
+
+SELECT * FROM funcionarios ORDER BY salario;
+
+SELECT * FROM funcionarios ORDER BY departamento, salario;
+
+SELECT * FROM funcionarios ORDER BY departamento DESC, salario DESC;
+
+
