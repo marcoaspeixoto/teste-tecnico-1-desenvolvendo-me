@@ -148,3 +148,7 @@ SELECT COUNT(*) FROM funcionarios WHERE salario > 2000;
 SELECT COUNT(*) FROM funcionarios WHERE salario > 1600;
 
 SELECT COUNT(*) FROM funcionarios WHERE salario > 1600 AND departamento = 'Jurídico';
+
+SELECT SUM(salario) FROM funcionarios;
+
+SELECT SUM(salario) FROM funcionarios WHERE departamento = 'TI';
