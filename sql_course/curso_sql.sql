@@ -156,3 +156,11 @@ SELECT SUM(salario) FROM funcionarios WHERE departamento = 'TI';
 SELECT AVG(salario) FROM funcionarios;
 
 SELECT AVG(salario) FROM funcionarios WHERE departamento = 'TI';
+
+SELECT MAX(salario) FROM funcionarios;
+
+SELECT MAX(salario) FROM funcionarios WHERE departamento = 'TI';
+
+SELECT MIN(salario) FROM funcionarios;
+
+SELECT MIN(salario) FROM funcionarios WHERE departamento = 'TI';
