@@ -164,3 +164,7 @@ SELECT MAX(salario) FROM funcionarios WHERE departamento = 'TI';
 SELECT MIN(salario) FROM funcionarios;
 
 SELECT MIN(salario) FROM funcionarios WHERE departamento = 'TI';
+
+SELECT departamento FROM funcionarios;
+
+SELECT DISTINCT(departamento) FROM funcionarios;
