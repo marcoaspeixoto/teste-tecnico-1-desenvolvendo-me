@@ -181,4 +181,10 @@ SELECT * FROM funcionarios ORDER BY departamento, salario;
 
 SELECT * FROM funcionarios ORDER BY departamento DESC, salario DESC;
 
+SELECT * FROM funcionarios LIMIT 2;
+
+SELECT * FROM funcionarios LIMIT 2 OFFSET 1;
+
+SELECT * FROM funcionarios LIMIT 1, 2;
+
 
