@@ -238,6 +238,8 @@ INNER JOIN alunos ON pedidos.aluno_codigo = alunos.codigo;
 
 SELECT * FROM consulta_3;
 
+SELECT DISTINCT aluno FROM alunos INNER JOIN pedidos p on alunos.codigo = p.aluno_codigo;
+
 
 
 
