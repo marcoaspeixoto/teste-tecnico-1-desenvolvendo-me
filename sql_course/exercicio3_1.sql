@@ -243,6 +243,12 @@ SELECT DISTINCT aluno FROM alunos INNER JOIN pedidos p ON alunos.codigo = p.alun
 SELECT aluno FROM alunos INNER JOIN pedidos p ON alunos.codigo = p.aluno_codigo
 ORDER BY data_hora LIMIT 1;
 
+SELECT aluno FROM alunos INNER JOIN pedidos p ON alunos.codigo = p.aluno_codigo
+ORDER BY data_hora DESC LIMIT 1;
+
+SELECT DISTINCT aluno FROM (SELECT alunos.aluno FROM pedidos INNER JOIN alunos ON pedidos.aluno_codigo = alunos.codigo
+ORDER BY pedidos.data_hora LIMIT 1 OFFSET 3) tmp
+
 
 
 
