@@ -259,4 +259,6 @@ SELECT MAX(valor) FROM cursos;
 
 SELECT MIN(valor) FROM cursos;
 
+SELECT pedido_codigo, sum(valor) FROM pedido_detalhe GROUP BY pedido_codigo;
+
 
