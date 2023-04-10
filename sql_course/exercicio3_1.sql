@@ -251,6 +251,8 @@ ORDER BY pedidos.data_hora LIMIT 1 OFFSET 3) tmp
 
 SELECT COUNT(*) FROM pedido_detalhe;
 
+SELECT SUM(valor) FROM pedido_detalhe;
+
 
 
 
