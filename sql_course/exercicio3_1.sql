@@ -261,4 +261,5 @@ SELECT MIN(valor) FROM cursos;
 
 SELECT pedido_codigo, sum(valor) FROM pedido_detalhe GROUP BY pedido_codigo;
 
-
+SELECT instrutor, COUNT(*) FROM instrutores INNER JOIN cursos c on instrutores.codigo = c.instrutor_codigo
+GROUP BY instrutor;
