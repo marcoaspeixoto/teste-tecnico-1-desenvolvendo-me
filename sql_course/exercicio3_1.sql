@@ -255,6 +255,8 @@ SELECT SUM(valor) FROM pedido_detalhe;
 
 SELECT ROUND(AVG(valor), 2) FROM cursos WHERE tipo_codigo = 2;
 
+SELECT MAX(valor) FROM cursos;
 
+SELECT MIN(valor) FROM cursos;
 
 
