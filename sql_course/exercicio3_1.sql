@@ -263,3 +263,7 @@ SELECT pedido_codigo, sum(valor) FROM pedido_detalhe GROUP BY pedido_codigo;
 
 SELECT instrutor, COUNT(*) FROM instrutores INNER JOIN cursos c on instrutores.codigo = c.instrutor_codigo
 GROUP BY instrutor;
+
+SELECT pedidos.codigo, aluno, SUM(valor) FROM pedidos INNER JOIN alunos ON pedidos.aluno_codigo = alunos.codigo
+INNER JOIN pedido_detalhe ON pedidos.codigo = pedido_detalhe.pedido_codigo
+GROUP BY codigo HAVING SUM(valor);
