@@ -266,4 +266,10 @@ GROUP BY instrutor;
 
 SELECT pedidos.codigo, aluno, SUM(valor) FROM pedidos INNER JOIN alunos ON pedidos.aluno_codigo = alunos.codigo
 INNER JOIN pedido_detalhe ON pedidos.codigo = pedido_detalhe.pedido_codigo
-GROUP BY codigo HAVING SUM(valor);
+GROUP BY codigo HAVING SUM(valor) > 500;
+
+SELECT pedido_codigo, aluno, COUNT(*) FROM pedidos INNER JOIN pedido_detalhe pd ON pedidos.codigo = pd.pedido_codigo
+INNER JOIN alunos a ON pedidos.aluno_codigo = a.codigo
+GROUP BY pedido_codigo HAVING COUNT(pedido_codigo) >= 2;
+
+
