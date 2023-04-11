@@ -272,4 +272,6 @@ SELECT pedido_codigo, aluno, COUNT(*) FROM pedidos INNER JOIN pedido_detalhe pd 
 INNER JOIN alunos a ON pedidos.aluno_codigo = a.codigo
 GROUP BY pedido_codigo HAVING COUNT(pedido_codigo) >= 2;
 
+SELECT aluno, endereco FROM alunos WHERE endereco LIKE 'Av%';
 
+SELECT curso FROM cursos WHERE curso LIKE 'Java%';
