@@ -280,3 +280,5 @@ SELECT aluno, COUNT(aluno) FROM  alunos INNER JOIN pedidos ON alunos.codigo = pe
 INNER JOIN pedido_detalhe pd on pedidos.codigo = pd.pedido_codigo
 INNER JOIN cursos c on pd.curso_codigo = c.codigo
 GROUP BY aluno;
+
+SELECT curso, (SELECT MIN(valor) FROM pedido_detalhe WHERE pedido_detalhe.curso_codigo = cursos.codigo) AS menor_valor FROM cursos;
