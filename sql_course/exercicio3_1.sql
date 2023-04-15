@@ -292,3 +292,6 @@ SELECT instrutor, (SELECT SUM(pedido_detalhe.valor) FROM pedido_detalhe
     INNER JOIN cursos ON pedido_detalhe.curso_codigo = cursos.codigo
     WHERE cursos.instrutor_codigo = instrutores.codigo) AS
     total_de_vendas FROM instrutores;
+
+SELECT aluno, (SELECT SUM(valor) FROM pedido_detalhe INNER JOIN pedidos p ON pedido_detalhe.pedido_codigo = p.codigo
+    WHERE p.aluno_codigo = alunos.codigo) AS total_de_compras FROM alunos;
