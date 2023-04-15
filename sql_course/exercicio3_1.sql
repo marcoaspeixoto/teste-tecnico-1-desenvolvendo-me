@@ -282,3 +282,5 @@ INNER JOIN cursos c on pd.curso_codigo = c.codigo
 GROUP BY aluno;
 
 SELECT curso, (SELECT MIN(valor) FROM pedido_detalhe WHERE pedido_detalhe.curso_codigo = cursos.codigo) AS menor_valor FROM cursos;
+
+SELECT curso FROM cursos WHERE tipo_codigo IN (SELECT codigo from tipos WHERE tipo = 'Programação');
