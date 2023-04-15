@@ -287,3 +287,8 @@ SELECT curso FROM cursos WHERE tipo_codigo IN (SELECT codigo from tipos WHERE ti
 
 SELECT curso FROM cursos WHERE EXISTS
 (SELECT codigo FROM tipos WHERE tipos.codigo = cursos.tipo_codigo AND tipos.tipo = 'Programação');
+
+SELECT instrutor, (SELECT SUM(pedido_detalhe.valor) FROM pedido_detalhe
+    INNER JOIN cursos ON pedido_detalhe.curso_codigo = cursos.codigo
+    WHERE cursos.instrutor_codigo = instrutores.codigo) AS
+    total_de_vendas FROM instrutores;
