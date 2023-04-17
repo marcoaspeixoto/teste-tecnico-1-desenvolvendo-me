@@ -27,3 +27,6 @@ SELECT * FROM pilotos WHERE equipe IN
 SELECT * FROM pilotos ORDER BY pontos DESC LIMIT 1;
 
 SELECT MAX(pontos) FROM pilotos WHERE EQUIPE != 'B';
+
+SELECT COUNT(*) FROM pilotos WHERE equipe != 'C';
+
