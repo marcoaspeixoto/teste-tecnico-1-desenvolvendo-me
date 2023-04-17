@@ -23,3 +23,5 @@ SELECT COUNT(pontos) FROM pilotos WHERE equipe = 'B';
 
 SELECT * FROM pilotos WHERE equipe IN
 (SELECT equipe FROM pilotos GROUP BY equipe HAVING SUM(pontos) > 5);
+
+SELECT * FROM pilotos ORDER BY pontos DESC LIMIT 1;
