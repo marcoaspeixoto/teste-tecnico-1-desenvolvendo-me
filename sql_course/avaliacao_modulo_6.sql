@@ -20,3 +20,6 @@ INSERT INTO pilotos (nome, equipe, pontos) VALUES ('Fred', 'B', 7);
 SELECT * FROM pilotos;
 
 SELECT COUNT(pontos) FROM pilotos WHERE equipe = 'B';
+
+SELECT * FROM pilotos WHERE equipe IN
+(SELECT equipe FROM pilotos GROUP BY equipe HAVING SUM(pontos) > 5);
