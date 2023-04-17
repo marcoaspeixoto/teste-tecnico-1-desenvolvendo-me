@@ -25,3 +25,5 @@ SELECT * FROM pilotos WHERE equipe IN
 (SELECT equipe FROM pilotos GROUP BY equipe HAVING SUM(pontos) > 5);
 
 SELECT * FROM pilotos ORDER BY pontos DESC LIMIT 1;
+
+SELECT MAX(pontos) FROM pilotos WHERE EQUIPE != 'B';
