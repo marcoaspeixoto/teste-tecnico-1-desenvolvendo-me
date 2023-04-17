@@ -11,3 +11,11 @@ CREATE TABLE pilotos
     PRIMARY KEY (id)
 );
 
+INSERT INTO pilotos (nome, equipe, pontos) VALUES ('Fernando', 'A', 2);
+INSERT INTO pilotos (nome, equipe, pontos) VALUES ('Paulo', 'B', 5);
+INSERT INTO pilotos (nome, equipe, pontos) VALUES ('Richa', 'A', 3);
+INSERT INTO pilotos (nome, equipe, pontos) VALUES ('Gomes', 'C', 6);
+INSERT INTO pilotos (nome, equipe, pontos) VALUES ('Fred', 'B', 7);
+
+SELECT * FROM pilotos;
+
