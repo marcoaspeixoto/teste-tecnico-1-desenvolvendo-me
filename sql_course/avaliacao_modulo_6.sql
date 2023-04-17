@@ -19,3 +19,4 @@ INSERT INTO pilotos (nome, equipe, pontos) VALUES ('Fred', 'B', 7);
 
 SELECT * FROM pilotos;
 
+SELECT COUNT(pontos) FROM pilotos WHERE equipe = 'B';
