@@ -297,3 +297,5 @@ CREATE VIEW total_compras_por_alunos AS SELECT aluno, (SELECT SUM(valor) FROM pe
     WHERE p.aluno_codigo = alunos.codigo) AS total_de_compras FROM alunos;
 
 SELECT * FROM total_compras_por_alunos;
+
+
