@@ -209,3 +209,5 @@ GRANT SELECT ON curso_sql.* TO 'andre'@'%';
 /* GRANT ALL ON curso_sql.* TO 'andre'@'%';*/
 GRANT INSERT ON curso_sql.funcionarios TO 'andre'@'%';
 
+REVOKE INSERT ON curso_sql.funcionarios FROM 'andre'@'%';
+REVOKE SELECT ON curso_sql.* FROM 'andre'@'%';
