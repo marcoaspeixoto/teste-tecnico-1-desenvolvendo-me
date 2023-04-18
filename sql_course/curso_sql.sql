@@ -225,3 +225,4 @@ DROP USER 'andre'@'localhost';
 
 SELECT user FROM mysql.user;
 
+SHOW GRANTS FOR 'andre'@'%';
