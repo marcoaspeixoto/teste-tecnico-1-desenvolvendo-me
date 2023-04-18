@@ -232,3 +232,7 @@ SHOW GRANTS FOR 'andre'@'%';
 CREATE USER 'andre'@'localhost' IDENTIFIED BY 'Andre123#';
 
 GRANT * TO veiculos ON 'andre';
+
+GRANT ALL ON veiculos TO 'andre'@'localhost';
+
+SHOW GRANTS FOR 'andre'@'localhost';
