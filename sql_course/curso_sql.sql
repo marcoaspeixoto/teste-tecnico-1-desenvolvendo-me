@@ -204,5 +204,7 @@ SELECT nome FROM funcionarios WHERE departamento = 'Jurídico';
 CREATE USER 'andre'@'localhost' IDENTIFIED BY 'Milani123456#';
 GRANT ALL ON curso_sql.* TO 'andre'@'localhost';
 
+CREATE USER 'andre'@'%' IDENTIFIED BY 'Andreviagem123#';
+GRANT SELECT ON curso_sql.* TO 'andre'@'%';
 
 
