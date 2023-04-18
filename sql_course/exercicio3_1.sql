@@ -298,4 +298,8 @@ CREATE VIEW total_compras_por_alunos AS SELECT aluno, (SELECT SUM(valor) FROM pe
 
 SELECT * FROM total_compras_por_alunos;
 
+/* CREATE USER 'andre'@'200.200.190.190' IDENTIFIED BY 'Milani123456#';
+/* CREATE USER 'andre'@'%' IDENTIFIED BY 'Milani123456#';*/
+
+CREATE USER 'andre'@'localhost' IDENTIFIED BY 'Milani123456#';
 
