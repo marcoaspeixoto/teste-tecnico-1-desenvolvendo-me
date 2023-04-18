@@ -211,3 +211,15 @@ GRANT INSERT ON curso_sql.funcionarios TO 'andre'@'%';
 
 REVOKE INSERT ON curso_sql.funcionarios FROM 'andre'@'%';
 REVOKE SELECT ON curso_sql.* FROM 'andre'@'%';
+
+GRANT SELECT ON curso_sql.funcionarios TO 'andre'@'%';
+GRANT SELECT ON curso_sql.veiculos TO 'andre'@'%';
+
+REVOKE INSERT ON curso_sql.funcionarios FROM 'andre'@'%';
+REVOKE INSERT ON curso_sql.veiculos FROM 'andre'@'%';
+
+REVOKE ALL ON curso_sql.* FROM 'andre'@'localhost';
+
+DROP USER 'andre'@'%';
+DROP USER 'andre'@'localhost';
+
