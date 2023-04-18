@@ -223,3 +223,5 @@ REVOKE ALL ON curso_sql.* FROM 'andre'@'localhost';
 DROP USER 'andre'@'%';
 DROP USER 'andre'@'localhost';
 
+SELECT user FROM mysql.user;
+
