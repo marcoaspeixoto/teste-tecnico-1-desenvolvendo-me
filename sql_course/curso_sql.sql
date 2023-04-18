@@ -201,3 +201,8 @@ SELECT nome FROM funcionarios WHERE departamento IN
 SELECT departamento, AVG(salario) FROM funcionarios GROUP BY departamento;
 SELECT nome FROM funcionarios WHERE departamento = 'Jurídico';
 
+CREATE USER 'andre'@'localhost' IDENTIFIED BY 'Milani123456#';
+GRANT ALL ON curso_sql.* TO 'andre'@'localhost';
+
+
+
