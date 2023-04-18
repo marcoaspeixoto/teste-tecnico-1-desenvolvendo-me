@@ -236,3 +236,5 @@ GRANT * TO veiculos ON 'andre';
 GRANT ALL ON veiculos TO 'andre'@'localhost';
 
 SHOW GRANTS FOR 'andre'@'localhost';
+
+REVOKE UPDATE ON veiculos FROM 'andre'@'localhost';
