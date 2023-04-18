@@ -226,3 +226,9 @@ DROP USER 'andre'@'localhost';
 SELECT user FROM mysql.user;
 
 SHOW GRANTS FOR 'andre'@'%';
+
+#====== Avaliação módulo 7 =========
+
+CREATE USER 'andre'@'localhost' IDENTIFIED BY 'Andre123#';
+
+GRANT * TO veiculos ON 'andre';
