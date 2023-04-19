@@ -257,3 +257,8 @@ INSERT INTO contas_bancarias (titular, saldo) VALUES ('André', 1000);
 INSERT INTO contas_bancarias (titular, saldo) VALUES ('Carlos', 2000);
 
 SELECT * FROM contas_bancarias;
+
+start transaction;
+UPDATE contas_bancarias SET saldo = saldo - 100 WHERE id = 1;
+UPDATE contas_bancarias SET saldo = saldo + 100 WHERE id = 2;
+rollback;
