@@ -309,5 +309,9 @@ CREATE TABLE conta_bancaria
     PRIMARY KEY (codigo)
 ) engine = InnoDB;
 
-
+INSERT INTO conta_bancaria (titular, saldo) VALUES ('Andre', 213);
+INSERT INTO conta_bancaria (titular, saldo) VALUES ('Diogo', 489);
+INSERT INTO conta_bancaria (titular, saldo) VALUES ('Rafael', 568);
+INSERT INTO conta_bancaria (titular, saldo) VALUES ('Carlos', 712);
+INSERT INTO conta_bancaria (titular, saldo) VALUES ('Peter', -38);
 
