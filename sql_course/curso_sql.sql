@@ -262,3 +262,10 @@ start transaction;
 UPDATE contas_bancarias SET saldo = saldo - 100 WHERE id = 1;
 UPDATE contas_bancarias SET saldo = saldo + 100 WHERE id = 2;
 rollback;
+
+start transaction;
+UPDATE contas_bancarias SET saldo = saldo - 100 WHERE id = 1;
+UPDATE contas_bancarias SET saldo = saldo + 100 WHERE id = 2;
+commit;
+
+
