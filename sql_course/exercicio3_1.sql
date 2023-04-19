@@ -315,3 +315,14 @@ INSERT INTO conta_bancaria (titular, saldo) VALUES ('Rafael', 568);
 INSERT INTO conta_bancaria (titular, saldo) VALUES ('Carlos', 712);
 INSERT INTO conta_bancaria (titular, saldo) VALUES ('Peter', -38);
 
+START TRANSACTION;
+UPDATE conta_bancaria SET saldo = saldo * 1.03 WHERE saldo > 0;
+COMMIT;
+
+SELECT * FROM conta_bancaria;
+
+UPDATE conta_bancaria SET saldo = 231 WHERE codigo = 1;
+UPDATE conta_bancaria SET saldo = 489 WHERE codigo = 2;
+UPDATE conta_bancaria SET saldo = 568 WHERE codigo = 3;
+UPDATE conta_bancaria SET saldo = 712 WHERE codigo = 4;
+UPDATE conta_bancaria SET saldo = -38 WHERE codigo = 5;
