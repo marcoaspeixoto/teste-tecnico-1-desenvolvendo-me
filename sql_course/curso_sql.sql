@@ -242,3 +242,18 @@ REVOKE UPDATE ON veiculos FROM 'andre'@'localhost';
 GRANT SELECT ON veiculos TO 'andre'@'localhost';
 
 REVOKE ALL ON veiculos TO 'andre'@'localhost';
+
+SHOW ENGINES;
+
+CREATE TABLE contas_bancarias
+(
+    id int unsigned not null auto_increment,
+    titular varchar(45) not null,
+    saldo double not null,
+    PRIMARY KEY (id)
+) engine = InnoDB;
+
+INSERT INTO contas_bancarias (titular, saldo) VALUES ('André', 1000);
+INSERT INTO contas_bancarias (titular, saldo) VALUES ('Carlos', 2000);
+
+SELECT * FROM contas_bancarias;
