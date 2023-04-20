@@ -290,3 +290,4 @@ BEGIN
 END $$
 DELIMITER ;
 
+CALL limpa_pedidos();
