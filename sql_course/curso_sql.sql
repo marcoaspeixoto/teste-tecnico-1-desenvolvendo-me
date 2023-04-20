@@ -299,3 +299,13 @@ CREATE TABLE estoque
     quantidade int not null,
     PRIMARY KEY (id)
 );
+
+CREATE TRIGGER gatilho_limpa_pedidos
+    BEFORE INSERT
+    ON estoque
+    FOR EACH ROW
+    CALL limpa_pedidos();
+
+SELECT * FROM pedidos;
+
+INSERT INTO estoque (descricao, quantidade) VALUES ('Fogão', 5);
