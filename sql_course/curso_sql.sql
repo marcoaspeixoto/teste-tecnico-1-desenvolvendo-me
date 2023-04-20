@@ -268,4 +268,11 @@ UPDATE contas_bancarias SET saldo = saldo - 100 WHERE id = 1;
 UPDATE contas_bancarias SET saldo = saldo + 100 WHERE id = 2;
 commit;
 
-
+CREATE TABLE pedidos
+(
+    id int unsigned not null auto_increment,
+    descricao varchar(100) not null,
+    valor double not null default '0',
+    pago varchar(3) not null default 'Não',
+    PRIMARY KEY (id)
+);
