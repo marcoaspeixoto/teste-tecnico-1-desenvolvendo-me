@@ -276,3 +276,9 @@ CREATE TABLE pedidos
     pago varchar(3) not null default 'Não',
     PRIMARY KEY (id)
 );
+
+INSERT INTO pedidos (descricao, valor) VALUES ('TV', 3000);
+INSERT INTO pedidos (descricao, valor) VALUES ('Geladeira', 1400);
+INSERT INTO pedidos (descricao, valor) VALUES ('DVD Player', 300);
+
+SELECT * FROM pedidos;
