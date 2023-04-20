@@ -282,3 +282,11 @@ INSERT INTO pedidos (descricao, valor) VALUES ('Geladeira', 1400);
 INSERT INTO pedidos (descricao, valor) VALUES ('DVD Player', 300);
 
 SELECT * FROM pedidos;
+
+DELIMITER $$
+CREATE PROCEDURE limpa_pedidos()
+BEGIN
+    DELETE FROM pedidos WHERE pago = 'Não';
+END $$
+DELIMITER ;
+
