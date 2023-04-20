@@ -291,3 +291,11 @@ END $$
 DELIMITER ;
 
 CALL limpa_pedidos();
+
+CREATE TABLE estoque
+(
+    id int unsigned not null auto_increment,
+    descricao varchar(50) not null,
+    quantidade int not null,
+    PRIMARY KEY (id)
+);
