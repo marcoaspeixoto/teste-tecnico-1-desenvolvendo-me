@@ -281,6 +281,8 @@ INSERT INTO pedidos (descricao, valor) VALUES ('TV', 3000);
 INSERT INTO pedidos (descricao, valor) VALUES ('Geladeira', 1400);
 INSERT INTO pedidos (descricao, valor) VALUES ('DVD Player', 300);
 
+UPDATE pedidos SET pago = 'Sim' WHERE id = 8;
+
 SELECT * FROM pedidos;
 
 DELIMITER $$
@@ -309,3 +311,5 @@ CREATE TRIGGER gatilho_limpa_pedidos
 SELECT * FROM pedidos;
 
 INSERT INTO estoque (descricao, quantidade) VALUES ('Fogão', 5);
+
+INSERT INTO estoque (descricao, quantidade) VALUES ('Forno', 3);
