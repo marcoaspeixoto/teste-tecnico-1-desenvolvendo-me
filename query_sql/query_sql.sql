@@ -6,3 +6,7 @@ CREATE TABLE teams
     name varchar(40) not null,
     PRIMARY KEY (id)
 );
+
+INSERT INTO teams (name) VALUES ('TI');
+INSERT INTO teams (name) VALUES ('Suporte');
+INSERT INTO teams (name) VALUES ('Financeiro');
