@@ -36,3 +36,16 @@ CREATE TABLE employees
     CONSTRAINT fk_employees_teams FOREIGN KEY (team_id) REFERENCES teams (id),
     CONSTRAINT fk_employees_job_titles FOREIGN KEY (job_title_id) REFERENCES job_titles (id)
 );
+
+
+ALTER TABLE employees MODIFY cpf char(14) not null;
+
+INSERT INTO employees (first_name, last_name, cpf, team_id, job_title_id)
+VALUES ('Pedro', 'Alves', '665.415.876-80', 2, 3);
+
+INSERT INTO employees (first_name, last_name, cpf, team_id, job_title_id)
+VALUES ('Tiago', 'Nogueira', '032.336.130-75', 1, 1);
+
+INSERT INTO employees (first_name, last_name, cpf, team_id, job_title_id)
+VALUES ('João', 'Neves', '461.636.517-23', 1, 2);
+
