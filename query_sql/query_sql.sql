@@ -18,4 +18,8 @@ CREATE TABLE job_titles
     PRIMARY KEY (id)
 );
 
+INSERT INTO job_titles (name) VALUES ('Desenvolvedor back-end');
+INSERT INTO job_titles (name) VALUES ('Desenvolvedor front-end');
+INSERT INTO job_titles (name) VALUES ('Encantador de clientes');
 
+SELECT * FROM teams;
