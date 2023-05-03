@@ -9,6 +9,7 @@
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="@localhost" uuid="5dda7527-3dc6-4601-928c-ce25786a6ff4">
+    <data-source source="LOCAL" name="@localhost" uuid="e55be990-3567-4eb9-80a9-b214860b803e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
