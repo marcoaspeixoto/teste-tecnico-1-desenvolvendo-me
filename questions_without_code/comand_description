@@ -1,3 +1,5 @@
+Questão 06
+
 Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: a ||= b
 
 O comando a ||= b é um operador de atribuição condicional em Ruby. Ele é amplamente utilizado porque permite definir um valor padrão para uma variável caso ela ainda não tenha sido atribuída, sem precisar fazer uma verificação condicional explícita.
