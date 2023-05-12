@@ -1,0 +1,21 @@
+Questão 07
+
+Qual a principal diferença entre estes dois métodos?
+
+// Java
+public boolean isEmpty(String s) {
+     return s.length() == 0;
+}
+
+# Ruby
+def empty?(s)
+  return s.size == 0
+end
+
+Os dois métodos têm a mesma finalidade, que é verificar se uma string está vazia ou não. A principal diferença é a
+sintaxe usada para definir os métodos. Java usa a palavra-chave "public" para indicar a visibilidade do método e o
+tipo de retorno é especificado antes do nome do método. Já em Ruby, a palavra-chave "def" é usada para definir um
+método e o tipo de retorno é opcional e pode ser definido com uma sintaxe específica.
+Outra diferença no que se refere a sintaxe é que Java usa a propriedade "length()" para obter o tamanho da string,
+enquanto Ruby usa o método "size()". No entanto, esses métodos retornam o mesmo valor, que é o número de caracteres
+na string.
