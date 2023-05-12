@@ -1,0 +1,9 @@
+Questão 08
+
+Qual o significado do self nas classes ruby?
+
+Em Ruby, a palavra-chave "self" é usada para se referir ao objeto atual da classe em que o código está sendo executado.
+O objeto self é uma instância da classe em que o código está sendo executado e pode ser usado para acessar variáveis de
+instância, métodos e outros elementos do objeto.
+Em outras palavras, "self" é um objeto especial que representa a instância atual da classe e permite que você se refira
+a ele dentro do escopo da classe. Ele pode ser usado para chamar métodos em si mesmo ou acessar atributos de instância.
