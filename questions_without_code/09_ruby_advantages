@@ -1,0 +1,13 @@
+Questão 09
+
+Quais as vantagens e desvantagens do ruby ser uma linguagem dinamicamente tipada?
+
+Uma das principais vantagens é a flexibilidade oferecida pelo gerenciamento dinâmico de tipos, o que permite
+aos desenvolvedores escreverem código de forma mais rápida e fácil, sem se preocuparem tanto com a definição
+de tipos de dados. Além disso, a linguagem é frequentemente mais concisa e legível do que linguagens
+estáticamente tipadas.
+Por outro lado, há algumas desvantagens em usar uma linguagem dinamicamente tipada, como a possibilidade
+de erros que só são detectados em tempo de execução e a dificuldade de depuração de erros. Além disso,
+a falta de declarações de tipo pode tornar o código menos legível para outros desenvolvedores que não estejam
+familiarizados com o projeto. Outra desvantagem é que, em geral, as linguagens dinamicamente tipadas tendem
+a ser mais lentas do que as estáticamente tipadas.
