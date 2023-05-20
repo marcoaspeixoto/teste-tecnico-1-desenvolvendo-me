@@ -1,24 +1,77 @@
-# README
+<h1 align="center">:page_with_curl: Teste Técnico 1 DesenvolvendoMe</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<br>
 
-Things you may want to cover:
+<div align="center">
 
-* Ruby version
+![GitHub issues](https://img.shields.io/github/issues-raw/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub milestones](https://img.shields.io/github/milestones/all/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me?style=for-the-badge)
 
-* System dependencies
+</div>
 
-* Configuration
+<br>
 
-* Database creation
+## :pencil: Descrição do Projeto
 
-* Database initialization
+Teste técnico da mentoria DesenvolvendoMe contendo 9 questões sendo 3 delas envolvendo construção de código e o restante com respostas dissertativas e análise de códigos
 
-* How to run the test suite
+## :computer: Tecnologias Utilizadas
 
-* Services (job queues, cache servers, search engines, etc.)
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-* Deployment instructions
+* Ruby 3.1.2
+* Rails 6.1.6.1
+* SQLite3
 
-* ...
+## Questões:
+
+#### :one: Faça uma função que receba uma string e retorne verdadeiro caso ela seja palíndromo, do contrário ela deve retornar falso. (palíndromos são palavras ou frases que podem ser lidas da esquerda para a direita ou da direita para a esquerda.)
+
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/2)
+
+<br>
+
+#### :two: Faça uma função que receba uma string contendo um CPF e verifique se ele está formatado de acordo com a máscara 999.999.999-99. A função deve usar regex para fazer a validação da máscara e deve retornar verdadeiro ou falso. cpf = “461.636.517-23”
+
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/3)
+
+<br>
+
+#### :trhee: O fatorial de um número n!, é definido como o produto de todos os números inteiros de 1 a n. Por exemplo: 5! é 5 * 4 * 3 * 2 * 1 = 120
+
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/3)
+
+<br>
+
+
+
+## :gear: Rodando a Aplicação
+
+**Clone este repositório**  
+` git clone https://github.com/marcoaspeixoto/Missao-Vaga-DesenvolvendoMe.git `
+
+**Acesse a pasta do projeto**  
+` cd editora `
+
+**Instale as gems necessárias**  
+` bundle `
+
+**Execute o servidor da aplicação**  
+` rails s `
+
+**O servidor inciará na porta: 3000 - acesse:**    
+` http://localhost:3000 `
+
+<br>
+
+## :heavy_check_mark: Conclusão
+
+* **Student / Developer:** Marco Peixoto (https://github.com/marcoaspeixoto)
+* **Mentor / Leader:** Marco Castro (https://github.com/marcodotcastro)
