@@ -32,19 +32,19 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Questões:
 
-1) Faça uma função que receba uma string e retorne verdadeiro caso ela seja palíndromo, do contrário ela deve retornar falso. (palíndromos são palavras ou frases que podem ser lidas da esquerda para a direita ou da direita para a esquerda.)
+1 - Faça uma função que receba uma string e retorne verdadeiro caso ela seja palíndromo, do contrário ela deve retornar falso. (palíndromos são palavras ou frases que podem ser lidas da esquerda para a direita ou da direita para a esquerda.)
 
 [Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/2)
 
 <br>
 
-2) Faça uma função que receba uma string contendo um CPF e verifique se ele está formatado de acordo com a máscara 999.999.999-99. A função deve usar regex para fazer a validação da máscara e deve retornar verdadeiro ou falso. cpf = “461.636.517-23”
+2 - Faça uma função que receba uma string contendo um CPF e verifique se ele está formatado de acordo com a máscara 999.999.999-99. A função deve usar regex para fazer a validação da máscara e deve retornar verdadeiro ou falso. cpf = “461.636.517-23”
 
 [Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/3)
 
 <br>
 
-3) O fatorial de um número n!, é definido como o produto de todos os números inteiros de 1 a n. Por exemplo: 5! é 5 * 4 * 3 * 2 * 1 = 120
+3 - O fatorial de um número n!, é definido como o produto de todos os números inteiros de 1 a n. Por exemplo: 5! é 5 * 4 * 3 * 2 * 1 = 120
 
 A maioria das implementações de cálculo de fatoriais usam uma função recursiva para determinar o valor fatorial(n). No entanto, a maioria dos sistemas não consegue lidar com pilhas de recursividade maiores que 2000.
 
@@ -60,7 +60,32 @@ Regras
 
 <br>
 
+4 - A partir das tabelas do banco de dados abaixo, escreva uma query sql que através de join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenando os por cpf.
 
+Tabela: employees
+
+| id | first_name | last_name | cpf | team_id | job_title_id |
+|---|---|---|---|---|--------------|
+| 1 | Pedro | Alves | 665.415.876.80 | 2 | 3            |
+| 2 | Tiago | Nogueira | 032.336.130-75 | 1 | 1            |
+| 3 | João | Neves | 461.636.517.23 | 1 | 2            |
+
+
+Tabela: teams
+
+| id | name |
+|---|---|
+| 1 | TI |
+| 2 | Suporte |
+| 3 | Financeiro |
+
+Tabela: job_titles
+
+| id | name |
+|---|---|
+| 1 | Desenvolvedor back-endimpr |
+| 2 | Desenvolvedor front-end |
+| 3 | Encantador de clientes |
 
 ## :gear: Rodando a Aplicação
 
