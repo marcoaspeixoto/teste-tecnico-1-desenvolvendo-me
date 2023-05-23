@@ -87,6 +87,41 @@ Tabela: job_titles
 | 2 | Desenvolvedor front-end |
 | 3 | Encantador de clientes |
 
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/10)
+
+<br>
+
+5 - Usando as tabelas do banco de dados do exercício anterior, escreva as classes das
+models Employee, Team e JobTitle, declare as associações das models e escreva a mesma
+query com a sintaxe do ActiveRecord.
+
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/11)
+
+<br>
+
+6 - Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: `a ||= b`
+
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/12)
+
+<br>
+
+7 - Qual a principal diferença entre estes dois métodos?
+
+```java
+// Java
+public boolean isEmpty(String s) {
+     return s.length() == 0;
+}
+``` 
+
+```ruby
+# Ruby
+def empty?(s)
+  return s.size == 0
+end
+``` 
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/13)
+
 ## :gear: Rodando a Aplicação
 
 **Clone este repositório**  
