@@ -20,7 +20,7 @@
 
 ## :pencil: Descrição do Projeto
 
-Teste técnico da mentoria DesenvolvendoMe contendo 9 questões sendo 3 delas envolvendo construção de código e o restante com respostas dissertativas e análise de códigos
+Teste técnico 1 da mentoria DesenvolvendoMe contendo 9 questões sendo 3 delas envolvendo construção de código e o restante com respostas dissertativas e análise de códigos
 
 ## :computer: Tecnologias Utilizadas
 
@@ -122,22 +122,17 @@ end
 ``` 
 [Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/13)
 
-## :gear: Rodando a Aplicação
+<br>
 
-**Clone este repositório**  
-` git clone https://github.com/marcoaspeixoto/Missao-Vaga-DesenvolvendoMe.git `
+8 - Qual o significado do **_self_** nas classes ruby?
 
-**Acesse a pasta do projeto**  
-` cd editora `
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/14)
 
-**Instale as gems necessárias**  
-` bundle `
+<br>
 
-**Execute o servidor da aplicação**  
-` rails s `
+9 - Quais as vantagens e desvantagens do ruby ser uma linguagem dinamicamente tipada?
 
-**O servidor inciará na porta: 3000 - acesse:**    
-` http://localhost:3000 `
+[Solução](https://github.com/marcoaspeixoto/teste-tecnico-1-desenvolvendo-me/issues/15)
 
 <br>
 
